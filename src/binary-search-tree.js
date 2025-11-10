@@ -6,14 +6,6 @@ const { Node } = require('../extensions/list-tree.js');
 * using Node from extensions
 */
 
-class Node {
-  constructor(value) {
-    this.value = value;
-    this.left = null;
-    this.right = null;
-  }
-}
-
 class BinarySearchTree {
   constructor() {
     this.treeRoot = null;
